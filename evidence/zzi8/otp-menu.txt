@@ -1,0 +1,95 @@
+===== RVA_d66e0 :: FUN_000d66e0 @ 000d66e0 ===== (GhidraScript)  
+INFO  DumpTargets.java> 
+void FUN_000d66e0(undefined1 param_1 [16],undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                 undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+                 int param_9,undefined8 param_10,char *param_11,undefined8 *param_12,
+                 longlong param_13,undefined8 param_14,undefined8 param_15,undefined8 param_16)
+
+{
+  bool bVar1;
+  int iVar2;
+  char cVar3;
+  char *pcVar4;
+  undefined8 *puVar5;
+  longlong lVar6;
+  uint uVar7;
+  undefined1 extraout_q0 [16];
+  undefined1 extraout_q0_00 [16];
+  undefined1 auVar8 [16];
+  uint local_58;
+  uint uStack_54;
+  undefined8 local_50;
+  longlong local_48;
+  
+  iVar2 = (int)param_11;
+  local_48 = DAT_00143008;
+  cVar3 = FUN_00001c20();
+  auVar8 = extraout_q0;
+  if ((cVar3 != '\0') && (cVar3 = FUN_00001c48(0x40), auVar8 = extraout_q0_00, cVar3 != '\0')) {
+    param_11 = "display_otp_mode";
+    auVar8 = FUN_0000162c(0x40,&DAT_00106e55);
+  }
+  local_58 = 0;
+  uStack_54 = 0;
+  FUN_00061b40(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,&uStack_54,&local_58,
+               param_11,param_12,param_13,param_14,param_15,param_16);
+  if (local_58 < uStack_54) {
+    auVar8 = FUN_0005fdb0();
+  }
+  else {
+    auVar8 = FUN_0005fe30(local_58 >> 1);
+  }
+  local_50._6_1_ = 0;
+  local_50._4_2_ = 0;
+  local_50._0_4_ = 0;
+  auVar8 = FUN_000d53d0(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,&local_50);
+  pcVar4 = "SM-S918B";
+  puVar5 = &local_50;
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xffffff,
+                        " %a (%a)\n","SM-S918B",puVar5,param_13,param_14,param_15,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xffffff,
+                        " ====================================",pcVar4,puVar5,param_13,param_14,
+                        param_15,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xffffff,
+                        "   Move/Scroll : Volume Up/Down key",pcVar4,puVar5,param_13,param_14,
+                        param_15,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xffffff,
+                        "   Select      : Power key",pcVar4,puVar5,param_13,param_14,param_15,
+                        param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xffffff,
+                        "   Done        : Select DONE menu",pcVar4,puVar5,param_13,param_14,param_15
+                        ,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xffffff,
+                        " ====================================",pcVar4,puVar5,param_13,param_14,
+                        param_15,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xff00ff,
+                        " INPUT : %a",param_10,puVar5,param_13,param_14,param_15,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xff00ff," ",
+                        param_10,puVar5,param_13,param_14,param_15,param_16);
+  auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xff00ff," ",
+                        param_10,puVar5,param_13,param_14,param_15,param_16);
+  lVar6 = (longlong)iVar2;
+  do {
+    uVar7 = 0xff;
+    if (param_9 != lVar6) {
+      uVar7 = 0xffffff;
+    }
+    auVar8 = FUN_0005f700(auVar8,param_2,param_3,param_4,param_5,param_6,param_7,param_8,
+                          (ulonglong)uVar7," %a",(&PTR_s_DONE_001ad6b8)[lVar6],puVar5,param_13,
+                          param_14,param_15,param_16);
+    bVar1 = lVar6 < iVar2 + 0xc;
+    lVar6 = lVar6 + 1;
+  } while (bVar1);
+  if (DAT_00143008 == local_48) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_00001488();
+}
+
+ (GhidraScript)  
+INFO  DumpTargets.java>   CALLER 000d6ca8 function=FUN_000d68b0@000d68b0 (GhidraScript)  
+INFO  DumpTargets.java>   CALLER 000d6cc0 function=FUN_000d68b0@000d68b0 (GhidraScript)  
+INFO  DumpTargets.java> TARGET d66e0 address=000d66e0 (GhidraScript)  
+INFO  DumpTargets.java>   DIRECT_XREF 000d6ca8 function=FUN_000d68b0@000d68b0 (GhidraScript)  
+INFO  DumpTargets.java>   DIRECT_XREF 000d6cc0 function=FUN_000d68b0@000d68b0 (GhidraScript)  

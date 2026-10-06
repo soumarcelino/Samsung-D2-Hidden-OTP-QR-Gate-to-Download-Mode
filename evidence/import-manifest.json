@@ -1,0 +1,721 @@
+{
+  "source_project": "D2Vault-Research",
+  "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+  "files": [
+    {
+      "source_path": "evidence/firmware_extract/analysis/current/d2_otp_public_key.der",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "public-keys/zzi8-d2-otp-public.der",
+      "source_sha256": "d66e3eda6f1b6e15172cc4e55958e710aa7708d75b66ba1e75ef293fae51f640",
+      "import_sha256": "d66e3eda6f1b6e15172cc4e55958e710aa7708d75b66ba1e75ef293fae51f640",
+      "original_lines": null
+    },
+    {
+      "source_path": "evidence/firmware_extract/RELATORIO_D2_QR_OTP.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/zzi8-report.md",
+      "source_sha256": "095a6d5b22f048116faf13646109ff1a6adda1bd3e7595365838be6a5015129a",
+      "import_sha256": "095a6d5b22f048116faf13646109ff1a6adda1bd3e7595365838be6a5015129a",
+      "original_lines": null
+    },
+    {
+      "source_path": "evidence/firmware_extract/RELATORIO_D2_QRCODE_OTP_SAFZI1.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/safzi1-historical-report.md",
+      "source_sha256": "4190ec60637baf8ff0f1fe21aa604907990fc9600f5f7578d5faca38a2bbf8b3",
+      "import_sha256": "4190ec60637baf8ff0f1fe21aa604907990fc9600f5f7578d5faca38a2bbf8b3",
+      "original_lines": null
+    },
+    {
+      "source_path": "docs/03-dmcservice-e-flags.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/android-policy.md",
+      "source_sha256": "db492514ba603d79b989778ee589045a9f011873c475d8ab00b36c6db05df945",
+      "import_sha256": "db492514ba603d79b989778ee589045a9f011873c475d8ab00b36c6db05df945",
+      "original_lines": null
+    },
+    {
+      "source_path": "docs/04-vaultkeeper-e-tee.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/vaultkeeper-access.md",
+      "source_sha256": "3868aa207b6622feb3217ba4583cbeb582206ed30a36b887909b2601a0b5a306",
+      "import_sha256": "3868aa207b6622feb3217ba4583cbeb582206ed30a36b887909b2601a0b5a306",
+      "original_lines": null
+    },
+    {
+      "source_path": "docs/11-engenharia-reversa-abl.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/bootloader-analysis.md",
+      "source_sha256": "5c0c26529837bbe26621c7eb1c99c570cd934c07025314945d13a3d70d7e302e",
+      "import_sha256": "5c0c26529837bbe26621c7eb1c99c570cd934c07025314945d13a3d70d7e302e",
+      "original_lines": null
+    },
+    {
+      "source_path": "docs/12-engenharia-reversa-ta-vk.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/vault-storage.md",
+      "source_sha256": "868784d90eb7a1c1e465d13852e37468389f275c958512f862fe9dbbbf2e1ba3",
+      "import_sha256": "868784d90eb7a1c1e465d13852e37468389f275c958512f862fe9dbbbf2e1ba3",
+      "original_lines": null
+    },
+    {
+      "source_path": "evidence/firmware_extract/MANIFEST.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/artifact-manifest.md",
+      "source_sha256": "f966411452457091cd4dac9d14260fb6732263de4d53545972de944a886a2a56",
+      "import_sha256": "f966411452457091cd4dac9d14260fb6732263de4d53545972de944a886a2a56",
+      "original_lines": null
+    },
+    {
+      "source_path": "docs/01-escopo-e-dispositivo.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/scope.md",
+      "source_sha256": "cfd4fcb03f86e77047bc76c3e68cc3c7aa18fc1c80fc6949edf6fe125870d4c0",
+      "import_sha256": "cfd4fcb03f86e77047bc76c3e68cc3c7aa18fc1c80fc6949edf6fe125870d4c0",
+      "original_lines": null
+    },
+    {
+      "source_path": "evidence/firmware_extract/analysis/current-targets-final.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/zzi8/otp-handler.txt",
+      "source_sha256": "08d1cf5895e98a52dd157724d01c221a6fdb5bdfec8645f80da5ff46b6290ba6",
+      "import_sha256": "d13784d34df6b90ce7ae852a3a6724d7279e13ce7a76a74dbc73445f0c57f91b",
+      "original_lines": [
+        4366,
+        4770
+      ]
+    },
+    {
+      "source_path": "evidence/firmware_extract/analysis/current-targets-final.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/zzi8/identity-builder.txt",
+      "source_sha256": "08d1cf5895e98a52dd157724d01c221a6fdb5bdfec8645f80da5ff46b6290ba6",
+      "import_sha256": "f748043553f3e34069acfa537cddd573fe3db443340efcb9f43fddd5a246d64f",
+      "original_lines": [
+        5276,
+        5878
+      ]
+    },
+    {
+      "source_path": "evidence/firmware_extract/analysis/current-targets-final.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/zzi8/qr-renderer.txt",
+      "source_sha256": "08d1cf5895e98a52dd157724d01c221a6fdb5bdfec8645f80da5ff46b6290ba6",
+      "import_sha256": "6aca5ae47f636c947d5ee42510408966554b998cc41c62f39d4e093ee7f034e9",
+      "original_lines": [
+        5880,
+        6066
+      ]
+    },
+    {
+      "source_path": "evidence/firmware_extract/analysis/current-targets-final.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/zzi8/otp-menu.txt",
+      "source_sha256": "08d1cf5895e98a52dd157724d01c221a6fdb5bdfec8645f80da5ff46b6290ba6",
+      "import_sha256": "6e73b4ac2bc72b168406574433da169e46da991da86a2734cf615ef139f9bd0b",
+      "original_lines": [
+        6070,
+        6164
+      ]
+    },
+    {
+      "source_path": "evidence/firmware_extract/analysis/current-targets-final.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/zzi8/d2-screen.txt",
+      "source_sha256": "08d1cf5895e98a52dd157724d01c221a6fdb5bdfec8645f80da5ff46b6290ba6",
+      "import_sha256": "b7ba534062790658fbe7143e5caab40a5a40c8a2936d1541082050c3dcbb996d",
+      "original_lines": [
+        6167,
+        6295
+      ]
+    },
+    {
+      "source_path": "scripts/extract_odinapp.py",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "scripts/extract_odinapp.py",
+      "source_sha256": "88d80ab48d9a292304d76bf544459ca964f6b596710f28bc292d0fac75d3f5db",
+      "import_sha256": "88d80ab48d9a292304d76bf544459ca964f6b596710f28bc292d0fac75d3f5db",
+      "original_lines": null
+    },
+    {
+      "source_path": "scripts/carve_jpegs.py",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "scripts/carve_jpegs.py",
+      "source_sha256": "a127cb17ecfd1b7e5baf540e34e3a2f13cbca2e24f121c4d11166fa864c8ab46",
+      "import_sha256": "a127cb17ecfd1b7e5baf540e34e3a2f13cbca2e24f121c4d11166fa864c8ab46",
+      "original_lines": null
+    },
+    {
+      "source_path": "scripts/ghidra/DumpDmcXrefs.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "scripts/ghidra/DumpDmcXrefs.java",
+      "source_sha256": "f6abfb895d3b1f3d197403c9d57bcb9021e6b656ea5e1b82d36b763f9d49998a",
+      "import_sha256": "f6abfb895d3b1f3d197403c9d57bcb9021e6b656ea5e1b82d36b763f9d49998a",
+      "original_lines": null
+    },
+    {
+      "source_path": "docs/10-glossario.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/glossary.md",
+      "source_sha256": "7ca25303ee0c6e38a900e1dfc4602ef175d17cfbd88f884f67b7c58fe8ccdffa",
+      "import_sha256": "7ca25303ee0c6e38a900e1dfc4602ef175d17cfbd88f884f67b7c58fe8ccdffa",
+      "original_lines": null
+    },
+    {
+      "source_path": "tools/d2_otp_simulator.py",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/d2_otp_simulator.py",
+      "source_sha256": "02b8676cca9465509bfc1abddb26de8357f12b1c07bb1fb5c16e0d13f3b2b5e5",
+      "import_sha256": "02b8676cca9465509bfc1abddb26de8357f12b1c07bb1fb5c16e0d13f3b2b5e5",
+      "original_lines": null
+    },
+    {
+      "source_path": "tools/d2_qr_decode.py",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/d2_qr_decode.py",
+      "source_sha256": "4b80d0df9a042ad5907c7ede4ca2da0555fc38a8fa3cdaa9d8ccdceb58a64751",
+      "import_sha256": "4b80d0df9a042ad5907c7ede4ca2da0555fc38a8fa3cdaa9d8ccdceb58a64751",
+      "original_lines": null
+    },
+    {
+      "source_path": "scripts/reference_d2_otp.py",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/reference_d2_otp.py",
+      "source_sha256": "5e623d468c2edc016a0366221fa26af6a3a434c90f82d5d40fcf9704d3e73761",
+      "import_sha256": "5e623d468c2edc016a0366221fa26af6a3a434c90f82d5d40fcf9704d3e73761",
+      "original_lines": null
+    },
+    {
+      "source_path": "scripts/ghidra/DumpBootRoutes.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "scripts/ghidra/DumpBootRoutes.java",
+      "source_sha256": "fda771946336368239ead9af555f67c92277c5ec71c798831dc4e2a1fa5538f3",
+      "import_sha256": "fda771946336368239ead9af555f67c92277c5ec71c798831dc4e2a1fa5538f3",
+      "original_lines": null
+    },
+    {
+      "source_path": "scripts/ghidra/DumpRouteStateMachines.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "scripts/ghidra/DumpRouteStateMachines.java",
+      "source_sha256": "0e3165f515f0079e6772b245393cbd96a6bfbe345abe75a703f08295fcdadfd0",
+      "import_sha256": "0e3165f515f0079e6772b245393cbd96a6bfbe345abe75a703f08295fcdadfd0",
+      "original_lines": null
+    },
+    {
+      "source_path": "MAINTENANCE_MODE_FLOW.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/sources/maintenance-mode-flow.md",
+      "source_sha256": "ba768e6100adbfffff48db82cb46509a43a8d595016843dd3701ec08155c5f2a",
+      "import_sha256": "ba768e6100adbfffff48db82cb46509a43a8d595016843dd3701ec08155c5f2a",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/README.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/README.md",
+      "source_sha256": "5eeacd0bd4b3191d35e109d67ea90e77dea31d420d8d7bfce7f3f56796d674a4",
+      "import_sha256": "5eeacd0bd4b3191d35e109d67ea90e77dea31d420d8d7bfce7f3f56796d674a4",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/all-java-references.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/all-java-references.txt",
+      "source_sha256": "06642eabc7233e9d0692c49a523330e8cf1a5838b614530bf90353b023c9792e",
+      "import_sha256": "06642eabc7233e9d0692c49a523330e8cf1a5838b614530bf90353b023c9792e",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/all-smali-references.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/all-smali-references.txt",
+      "source_sha256": "e35ad5c17856754d3b81397e758e41aeaa5e381f61b2178de318e2137e6665d2",
+      "import_sha256": "e35ad5c17856754d3b81397e758e41aeaa5e381f61b2178de318e2137e6665d2",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/exact-references.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/exact-references.txt",
+      "source_sha256": "c554bc3a3fca4e552616c9cd0934808387de6c99bedf9fb1ac23db8e51c86986",
+      "import_sha256": "c554bc3a3fca4e552616c9cd0934808387de6c99bedf9fb1ac23db8e51c86986",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda0.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda0.java",
+      "source_sha256": "85b6c791221f8e282889ff13d0f716b6bc289febafc1bcbbf5b0830d0bf8460c",
+      "import_sha256": "85b6c791221f8e282889ff13d0f716b6bc289febafc1bcbbf5b0830d0bf8460c",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda15.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda15.java",
+      "source_sha256": "ed5de11e6c2e1e81577588ce6f3cd58cd70367fed98840d12a965e58d5ca0d64",
+      "import_sha256": "ed5de11e6c2e1e81577588ce6f3cd58cd70367fed98840d12a965e58d5ca0d64",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda18.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda18.java",
+      "source_sha256": "b3af5a6cf8ca5795b286ac1633772380e0a03484205bed2c05bbf928076ea51c",
+      "import_sha256": "b3af5a6cf8ca5795b286ac1633772380e0a03484205bed2c05bbf928076ea51c",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda2.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda2.java",
+      "source_sha256": "b83788e53a7732943e5f89df475f5b979eee4e082ea2441dfffdd6d4d1e61879",
+      "import_sha256": "b83788e53a7732943e5f89df475f5b979eee4e082ea2441dfffdd6d4d1e61879",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda3.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda3.java",
+      "source_sha256": "214c7d934e2153d333ad18c79e001b331b785adf719cf9540eead0423b23a434",
+      "import_sha256": "214c7d934e2153d333ad18c79e001b331b785adf719cf9540eead0423b23a434",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda4.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda4.java",
+      "source_sha256": "aa199451ac27c26825747f79f10a9085842352f8d42fb541abf1ae09c17e0068",
+      "import_sha256": "aa199451ac27c26825747f79f10a9085842352f8d42fb541abf1ae09c17e0068",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda6.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda6.java",
+      "source_sha256": "06460639e03b95d14f60ea2bf25b6fe115be224c505165a8e9c7261ea3b1e070",
+      "import_sha256": "06460639e03b95d14f60ea2bf25b6fe115be224c505165a8e9c7261ea3b1e070",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda7.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda7.java",
+      "source_sha256": "15b79d9194db14a23213dce2884ebf4cae6ee61a6cd10ac2b16365cfebd4fcc3",
+      "import_sha256": "15b79d9194db14a23213dce2884ebf4cae6ee61a6cd10ac2b16365cfebd4fcc3",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda8.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda8.java",
+      "source_sha256": "1a601f6237975974356c4f19a083524edf9e88adba7d1b021b0102f98fdb3cc8",
+      "import_sha256": "1a601f6237975974356c4f19a083524edf9e88adba7d1b021b0102f98fdb3cc8",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda9.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment$$ExternalSyntheticLambda9.java",
+      "source_sha256": "9ee6cc7c06388094b09cb1262bfa3ca59ac5680e4960101b58f13677c50df468",
+      "import_sha256": "9ee6cc7c06388094b09cb1262bfa3ca59ac5680e4960101b58f13677c50df468",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeIntroFragment.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeIntroFragment.java",
+      "source_sha256": "10028cbd3fe1838e24918828bcb82f47adcb4f5d3e918bf14c40cf33cde49d30",
+      "import_sha256": "10028cbd3fe1838e24918828bcb82f47adcb4f5d3e918bf14c40cf33cde49d30",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeNotificationService.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeNotificationService.java",
+      "source_sha256": "c7e474d433d81a285f348800bca9734a3aaf28fcd6cac0dbb6a86861b6ae4a00",
+      "import_sha256": "c7e474d433d81a285f348800bca9734a3aaf28fcd6cac0dbb6a86861b6ae4a00",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda0.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda0.java",
+      "source_sha256": "a9151fe10aa9af831a6bd4536b7c54370e73fc3512b96eba5c417c13ebd20d7c",
+      "import_sha256": "a9151fe10aa9af831a6bd4536b7c54370e73fc3512b96eba5c417c13ebd20d7c",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda1.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda1.java",
+      "source_sha256": "be2a3bb3c7cf295ee3de3601b63dd525a0ce829b982b971cdcfd7bfcc1ae8bd5",
+      "import_sha256": "be2a3bb3c7cf295ee3de3601b63dd525a0ce829b982b971cdcfd7bfcc1ae8bd5",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda2.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda2.java",
+      "source_sha256": "dc6efce2ab1ff1d5a8cfa01831661aec84952ec7015d296a47c25a3e99d174f5",
+      "import_sha256": "dc6efce2ab1ff1d5a8cfa01831661aec84952ec7015d296a47c25a3e99d174f5",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda3.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeOutroFragment$$ExternalSyntheticLambda3.java",
+      "source_sha256": "6a63f27add3aa8191dec0892148f2493b6e23d9ef1248d69cd04d7404f9524e8",
+      "import_sha256": "6a63f27add3aa8191dec0892148f2493b6e23d9ef1248d69cd04d7404f9524e8",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeOutroFragment.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeOutroFragment.java",
+      "source_sha256": "673c1aa960ebe52e0f9d69a4367d2daf416072a528479b40b4191841b48956e9",
+      "import_sha256": "673c1aa960ebe52e0f9d69a4367d2daf416072a528479b40b4191841b48956e9",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeProxyActivity.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeProxyActivity.java",
+      "source_sha256": "c7458e16c531ba05e387090427686c4094dd8077fcd274bfa05558c7e68860ca",
+      "import_sha256": "c7458e16c531ba05e387090427686c4094dd8077fcd274bfa05558c7e68860ca",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeViewModel$$ExternalSyntheticLambda1.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeViewModel$$ExternalSyntheticLambda1.java",
+      "source_sha256": "63a4968c7955bda8da06d5421782da4d333e43a5e6879197b313f34e843e2ab3",
+      "import_sha256": "63a4968c7955bda8da06d5421782da4d333e43a5e6879197b313f34e843e2ab3",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeViewModel$$ExternalSyntheticLambda2.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeViewModel$$ExternalSyntheticLambda2.java",
+      "source_sha256": "853435ea779927296364b8129e522449890b2fe2bd09c6d81b12878c9f7509de",
+      "import_sha256": "853435ea779927296364b8129e522449890b2fe2bd09c6d81b12878c9f7509de",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeViewModel$$ExternalSyntheticLambda6.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeViewModel$$ExternalSyntheticLambda6.java",
+      "source_sha256": "be2cfec40839825a79ce0f4af9e922e955ffb415aace460ba31d31b1d323b682",
+      "import_sha256": "be2cfec40839825a79ce0f4af9e922e955ffb415aace460ba31d31b1d323b682",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/java/MaintenanceModeViewModel.java",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/java/MaintenanceModeViewModel.java",
+      "source_sha256": "d75aa2df36ca2db3310270557ee4117dc0faec21b976cd9381ff544504e9ce7c",
+      "import_sha256": "d75aa2df36ca2db3310270557ee4117dc0faec21b976cd9381ff544504e9ce7c",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/manifest-entry.xml",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/manifest-entry.xml",
+      "source_sha256": "34a7af088d1189690574dabea9874b14d6fbc1d2d818c7e46a339e88147a4b1f",
+      "import_sha256": "34a7af088d1189690574dabea9874b14d6fbc1d2d818c7e46a339e88147a4b1f",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/references/connected-apps-services.md",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/references/connected-apps-services.md",
+      "source_sha256": "a08ae5a56b4a86ba658b6252ad6ada4b6efaa60c323858520e2b6f0fd542e634",
+      "import_sha256": "a08ae5a56b4a86ba658b6252ad6ada4b6efaa60c323858520e2b6f0fd542e634",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/references/cross-component-references.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/references/cross-component-references.txt",
+      "source_sha256": "b0517bfcc4687b0617bb62004ade6e8df6cc8bd19f17fc2a53ccaf7ec61cb0d5",
+      "import_sha256": "b0517bfcc4687b0617bb62004ade6e8df6cc8bd19f17fc2a53ccaf7ec61cb0d5",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/resources/fragment_intro.xml",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/resources/fragment_intro.xml",
+      "source_sha256": "5f956c1ef0e060d6d70eee5c22ceaf848f3d0b55a2dae3d80e0b045b26ea317f",
+      "import_sha256": "5f956c1ef0e060d6d70eee5c22ceaf848f3d0b55a2dae3d80e0b045b26ea317f",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/resources/preference_screen_intro.xml",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/resources/preference_screen_intro.xml",
+      "source_sha256": "07588f9e39d997e020d396f0569efe6dae18a8b0b45e7ad1ef7d750110f46d13",
+      "import_sha256": "07588f9e39d997e020d396f0569efe6dae18a8b0b45e7ad1ef7d750110f46d13",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/resources/relevant-strings.txt",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/resources/relevant-strings.txt",
+      "source_sha256": "bb66137e64cfe8afca9057b3c9af6c6320f9900c4b3837318c0238b4e142981b",
+      "import_sha256": "bb66137e64cfe8afca9057b3c9af6c6320f9900c4b3837318c0238b4e142981b",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda0.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda0.smali",
+      "source_sha256": "af753929bc541eec7d0697fe358ff61e4bb504acf6975a738cbae44ee48c6fde",
+      "import_sha256": "af753929bc541eec7d0697fe358ff61e4bb504acf6975a738cbae44ee48c6fde",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda15.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda15.smali",
+      "source_sha256": "932be025447c39fed11c03a7bbc7e34aaecf4e1b5fe4fa7ab7785b018f78a5af",
+      "import_sha256": "932be025447c39fed11c03a7bbc7e34aaecf4e1b5fe4fa7ab7785b018f78a5af",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda18.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda18.smali",
+      "source_sha256": "9781cbc454d14fa9dc85772ffba1a0a80dbcb353aa91dee974ced3be6d184b03",
+      "import_sha256": "9781cbc454d14fa9dc85772ffba1a0a80dbcb353aa91dee974ced3be6d184b03",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda2.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda2.smali",
+      "source_sha256": "720bcf9c817901c3c91c96dcfb5ea10d6a4575a899dbdc47c79d2a1707f1c943",
+      "import_sha256": "720bcf9c817901c3c91c96dcfb5ea10d6a4575a899dbdc47c79d2a1707f1c943",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda3.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda3.smali",
+      "source_sha256": "221fb7f02b1b8c628b3ce24b882e3a138bf338731be0d1b0d9180895eb3d9b89",
+      "import_sha256": "221fb7f02b1b8c628b3ce24b882e3a138bf338731be0d1b0d9180895eb3d9b89",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda4.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda4.smali",
+      "source_sha256": "8303acf3035b2bc4f37ffd4fad2e4970baa558623dbd0f2dfb5768967e568415",
+      "import_sha256": "8303acf3035b2bc4f37ffd4fad2e4970baa558623dbd0f2dfb5768967e568415",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda6.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda6.smali",
+      "source_sha256": "df44cc3851ed80e04d445370a5a2859fceef17024f504cbbaee593ab965eb635",
+      "import_sha256": "df44cc3851ed80e04d445370a5a2859fceef17024f504cbbaee593ab965eb635",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda7.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda7.smali",
+      "source_sha256": "51836304078fc17bdac08fccd13f33ac7a89d3b6ba9b2ee041be79f585fad04b",
+      "import_sha256": "51836304078fc17bdac08fccd13f33ac7a89d3b6ba9b2ee041be79f585fad04b",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda8.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda8.smali",
+      "source_sha256": "29d2fb1bd16cc90cd2710ec9beb30260cf6eb7c3feb5db3141068a5cc273bd51",
+      "import_sha256": "29d2fb1bd16cc90cd2710ec9beb30260cf6eb7c3feb5db3141068a5cc273bd51",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda9.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$$ExternalSyntheticLambda9.smali",
+      "source_sha256": "6f24f97da1a044b1a267c0368921d89e997d2eb93983e93c131a078f8306262d",
+      "import_sha256": "6f24f97da1a044b1a267c0368921d89e997d2eb93983e93c131a078f8306262d",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$1.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$1.smali",
+      "source_sha256": "9dd2b2c1b909c251eb210606e753df2528fb4a34cd5b614cf6532850a07c0478",
+      "import_sha256": "9dd2b2c1b909c251eb210606e753df2528fb4a34cd5b614cf6532850a07c0478",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$CloudBackupReceiver.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$CloudBackupReceiver.smali",
+      "source_sha256": "8f0b21724189780dcd46316d89632aff57c5ee1598347d9a68ac3ac4fb52467b",
+      "import_sha256": "8f0b21724189780dcd46316d89632aff57c5ee1598347d9a68ac3ac4fb52467b",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment$IntroDialogFragment.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment$IntroDialogFragment.smali",
+      "source_sha256": "d6006b082f11539da29f2bf4ef92cab1926692206d29c00c0beaef50f0901a94",
+      "import_sha256": "d6006b082f11539da29f2bf4ef92cab1926692206d29c00c0beaef50f0901a94",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeIntroFragment.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeIntroFragment.smali",
+      "source_sha256": "b7c3bfc64ac806ced42d20093d817b6e063288cd8744ae91a5c6726b7e0ca806",
+      "import_sha256": "b7c3bfc64ac806ced42d20093d817b6e063288cd8744ae91a5c6726b7e0ca806",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeNotificationService$1.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeNotificationService$1.smali",
+      "source_sha256": "d3aeada44b9aef380653bff40e7042f0f70536ceda9b19e79119b92262c10322",
+      "import_sha256": "d3aeada44b9aef380653bff40e7042f0f70536ceda9b19e79119b92262c10322",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeNotificationService$DismissalReceiver.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeNotificationService$DismissalReceiver.smali",
+      "source_sha256": "01ba31c432f3edf004fdbd70769e9f8e7023bb754a54adc5fa6987d365e43a7a",
+      "import_sha256": "01ba31c432f3edf004fdbd70769e9f8e7023bb754a54adc5fa6987d365e43a7a",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeNotificationService.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeNotificationService.smali",
+      "source_sha256": "d5fceb4d81846f44bfea71c09828841ed9c3ccb1a747b9da23a0e2062e27cd7a",
+      "import_sha256": "d5fceb4d81846f44bfea71c09828841ed9c3ccb1a747b9da23a0e2062e27cd7a",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda0.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda0.smali",
+      "source_sha256": "004f7965a0cc83ca46c7f5a8e3175f34ee34260c4c5a3e841c39e86da25ebfaf",
+      "import_sha256": "004f7965a0cc83ca46c7f5a8e3175f34ee34260c4c5a3e841c39e86da25ebfaf",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda1.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda1.smali",
+      "source_sha256": "d84a39b374146e7cd517a08ce7293cf3a78004826de8ee7bcd172b9da1c635c3",
+      "import_sha256": "d84a39b374146e7cd517a08ce7293cf3a78004826de8ee7bcd172b9da1c635c3",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda2.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda2.smali",
+      "source_sha256": "a2f02694cbb89d39696e1bb76e5586d51910c6e8f5db872d9ac432f0d22ecc39",
+      "import_sha256": "a2f02694cbb89d39696e1bb76e5586d51910c6e8f5db872d9ac432f0d22ecc39",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda3.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeOutroFragment$$ExternalSyntheticLambda3.smali",
+      "source_sha256": "dcb016886011c721318257492e53bac4517c9594a3031c4b265ad2070386e6ea",
+      "import_sha256": "dcb016886011c721318257492e53bac4517c9594a3031c4b265ad2070386e6ea",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeOutroFragment$OutroDialogFragment.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeOutroFragment$OutroDialogFragment.smali",
+      "source_sha256": "5a05d7768f5870776c979930dc45f411138fc71fe652dbe4698b51f1882e49dc",
+      "import_sha256": "5a05d7768f5870776c979930dc45f411138fc71fe652dbe4698b51f1882e49dc",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeOutroFragment.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeOutroFragment.smali",
+      "source_sha256": "c84277b327024642119354fdab06e2f6990dae8410fae2156f81d63655f65de8",
+      "import_sha256": "c84277b327024642119354fdab06e2f6990dae8410fae2156f81d63655f65de8",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeProxyActivity.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeProxyActivity.smali",
+      "source_sha256": "90669ef7896cee9843bc4f0911f80b453f43ff76ce5624bb0a65f657c0002126",
+      "import_sha256": "90669ef7896cee9843bc4f0911f80b453f43ff76ce5624bb0a65f657c0002126",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeViewModel$$ExternalSyntheticLambda1.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeViewModel$$ExternalSyntheticLambda1.smali",
+      "source_sha256": "22dd705b31789f541768dcb8b4d480dab842a18936b05efc96a7fe886d3a1563",
+      "import_sha256": "22dd705b31789f541768dcb8b4d480dab842a18936b05efc96a7fe886d3a1563",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeViewModel$$ExternalSyntheticLambda2.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeViewModel$$ExternalSyntheticLambda2.smali",
+      "source_sha256": "0839848f2e82742b7bc6f62ba75ecb70b253c01614cd8af39376f8d5a41360f1",
+      "import_sha256": "0839848f2e82742b7bc6f62ba75ecb70b253c01614cd8af39376f8d5a41360f1",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeViewModel$$ExternalSyntheticLambda6.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeViewModel$$ExternalSyntheticLambda6.smali",
+      "source_sha256": "13d6d4062d7a93b158be1631b17bb4c03c49330901e0e8ab6a346dacc6204130",
+      "import_sha256": "13d6d4062d7a93b158be1631b17bb4c03c49330901e0e8ab6a346dacc6204130",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/MaintenanceModeViewModel.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/MaintenanceModeViewModel.smali",
+      "source_sha256": "ba1a047a4b70b4417ea56ad709a317d6e5283b7c45992551073c5762127e4820",
+      "import_sha256": "ba1a047a4b70b4417ea56ad709a317d6e5283b7c45992551073c5762127e4820",
+      "original_lines": null
+    },
+    {
+      "source_path": "Reverse Engineering/App/MaintenanceMode/smali/Settings$MaintenanceModeIntroActivity.smali",
+      "source_revision": "b8131475fd75f8f5f54b3485c611a00774068620",
+      "destination": "evidence/maintenance-mode/smali/Settings$MaintenanceModeIntroActivity.smali",
+      "source_sha256": "6e68de38d9923cca8c1a00fd37e9b5861840943ab4967dcc9ffcca15c5b59ae3",
+      "import_sha256": "6e68de38d9923cca8c1a00fd37e9b5861840943ab4967dcc9ffcca15c5b59ae3",
+      "original_lines": null
+    }
+  ],
+  "adaptations": [
+    {
+      "destination": "tools/d2_otp_simulator.py",
+      "original_snapshot": "evidence/sources/d2_otp_simulator.py",
+      "adapted_sha256": "47bcf81c075bfcbabfefe09918f7c3bbd6133b660e545bf4cf4014e661b7e244",
+      "changes": "Local key paths, consistent synthetic profile, field separator validation and qualified header claims"
+    },
+    {
+      "destination": "tools/d2_qr_decode.py",
+      "original_snapshot": "evidence/sources/d2_qr_decode.py",
+      "adapted_sha256": "94e97b81d62df41d1f6cd74643e517c05e0b356f7e5891bebb36a9417dfdd7c4",
+      "changes": "Marker discovery without fixed offset, canonical Base64 and maximum body length validation"
+    },
+    {
+      "destination": "scripts/reference_d2_otp.py",
+      "original_snapshot": "evidence/sources/reference_d2_otp.py",
+      "adapted_sha256": "3f2f17c6028d9b4e665e59902a0b0eadfc127d3781974002f1863ab28d6b22c2",
+      "changes": "Local key path, consistent synthetic profile and field separator validation"
+    }
+  ]
+}

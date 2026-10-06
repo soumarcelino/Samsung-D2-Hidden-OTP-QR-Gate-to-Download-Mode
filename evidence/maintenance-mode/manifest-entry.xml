@@ -1,0 +1,7 @@
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/maintenance_mode" android:name="com.android.settings.Settings$MaintenanceModeIntroActivity" android:permission="com.samsung.android.permission.ACCESS_MAINTENANCE_MODE">
+            <intent-filter android:priority="1">
+                <action android:name="com.samsung.android.intent.action.ENABLE_MAINTENANCE_MODE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.samsung.android.settings.maintenancemode.MaintenanceModeIntroFragment"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY" android:value="@string/menu_key_devicecare"/>

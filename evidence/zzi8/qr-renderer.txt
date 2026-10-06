@@ -1,0 +1,187 @@
+===== RVA_d62f0 :: FUN_000d62f0 @ 000d62f0 ===== (GhidraScript)  
+INFO  DumpTargets.java> 
+void FUN_000d62f0(undefined1 param_1 [16],undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                 undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+                 longlong param_9,int param_10,int param_11,undefined8 param_12,undefined8 param_13,
+                 undefined8 param_14,undefined8 param_15,undefined8 *param_16)
+
+{
+  longlong lVar1;
+  char cVar2;
+  longlong lVar3;
+  ulonglong uVar4;
+  longlong lVar5;
+  longlong lVar6;
+  char *pcVar7;
+  longlong lVar8;
+  longlong lVar9;
+  ulonglong uVar10;
+  ulonglong uVar11;
+  byte *pbVar12;
+  longlong lVar13;
+  undefined1 extraout_q0 [16];
+  undefined1 auVar14 [16];
+  undefined1 extraout_q0_00 [16];
+  
+  lVar1 = DAT_00143008;
+  pbVar12 = (byte *)(param_9 + 1);
+  lVar3 = FUN_00007018();
+  if (lVar3 == 0) {
+    cVar2 = FUN_00001c20();
+    if ((cVar2 == '\0') || (cVar2 = FUN_00001c48(-0x80000000), cVar2 == '\0')) {
+      if (DAT_00143008 == lVar1) {
+        return;
+      }
+    }
+    else if (DAT_00143008 == lVar1) {
+      FUN_0000162c(0x80000000,(byte *)"%a:  BltBuffer Alloc failed\n");
+      return;
+    }
+  }
+  else {
+    uVar4 = (ulonglong)*pbVar12;
+    auVar14 = extraout_q0;
+    if (*pbVar12 != 0) {
+      lVar13 = 0;
+      uVar10 = 0;
+      uVar4 = 1;
+      do {
+        if ((int)uVar4 != 0) {
+          uVar11 = 0;
+          do {
+            cVar2 = switchD_000f873c::caseD_64();
+            lVar5 = 0;
+            cVar2 = -(cVar2 == '\0');
+            while( true ) {
+              lVar6 = lVar13 + lVar5;
+              pcVar7 = (char *)(lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14);
+              *pcVar7 = cVar2;
+              pcVar7[1] = cVar2;
+              pcVar7[2] = cVar2;
+              pcVar7[3] = '\0';
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 4) = cVar2;
+              *(char *)(lVar8 + 5) = cVar2;
+              *(char *)(lVar8 + 6) = cVar2;
+              *(undefined1 *)(lVar8 + 7) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 8) = cVar2;
+              *(char *)(lVar8 + 9) = cVar2;
+              *(char *)(lVar8 + 10) = cVar2;
+              *(undefined1 *)(lVar8 + 0xb) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 0xc) = cVar2;
+              *(char *)(lVar8 + 0xd) = cVar2;
+              *(char *)(lVar8 + 0xe) = cVar2;
+              *(undefined1 *)(lVar8 + 0xf) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 0x10) = cVar2;
+              *(char *)(lVar8 + 0x11) = cVar2;
+              *(char *)(lVar8 + 0x12) = cVar2;
+              *(undefined1 *)(lVar8 + 0x13) = 0;
+              if (lVar5 == 4) break;
+              lVar8 = lVar6 + 1;
+              lVar5 = lVar5 + 4;
+              pcVar7 = (char *)(lVar3 + (uVar11 + lVar8 * (ulonglong)*pbVar12) * 0x14);
+              *pcVar7 = cVar2;
+              pcVar7[1] = cVar2;
+              pcVar7[2] = cVar2;
+              pcVar7[3] = '\0';
+              lVar9 = lVar3 + (uVar11 + lVar8 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar9 + 4) = cVar2;
+              *(char *)(lVar9 + 5) = cVar2;
+              *(char *)(lVar9 + 6) = cVar2;
+              *(undefined1 *)(lVar9 + 7) = 0;
+              lVar9 = lVar3 + (uVar11 + lVar8 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar9 + 8) = cVar2;
+              *(char *)(lVar9 + 9) = cVar2;
+              *(char *)(lVar9 + 10) = cVar2;
+              *(undefined1 *)(lVar9 + 0xb) = 0;
+              lVar9 = lVar3 + (uVar11 + lVar8 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar9 + 0xc) = cVar2;
+              *(char *)(lVar9 + 0xd) = cVar2;
+              *(char *)(lVar9 + 0xe) = cVar2;
+              *(undefined1 *)(lVar9 + 0xf) = 0;
+              lVar9 = lVar6 + 2;
+              lVar6 = lVar6 + 3;
+              lVar8 = lVar3 + (uVar11 + lVar8 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 0x10) = cVar2;
+              *(char *)(lVar8 + 0x11) = cVar2;
+              *(char *)(lVar8 + 0x12) = cVar2;
+              *(undefined1 *)(lVar8 + 0x13) = 0;
+              pcVar7 = (char *)(lVar3 + (uVar11 + lVar9 * (ulonglong)*pbVar12) * 0x14);
+              *pcVar7 = cVar2;
+              pcVar7[1] = cVar2;
+              pcVar7[2] = cVar2;
+              pcVar7[3] = '\0';
+              lVar8 = lVar3 + (uVar11 + lVar9 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 4) = cVar2;
+              *(char *)(lVar8 + 5) = cVar2;
+              *(char *)(lVar8 + 6) = cVar2;
+              *(undefined1 *)(lVar8 + 7) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar9 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 8) = cVar2;
+              *(char *)(lVar8 + 9) = cVar2;
+              *(char *)(lVar8 + 10) = cVar2;
+              *(undefined1 *)(lVar8 + 0xb) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar9 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 0xc) = cVar2;
+              *(char *)(lVar8 + 0xd) = cVar2;
+              *(char *)(lVar8 + 0xe) = cVar2;
+              *(undefined1 *)(lVar8 + 0xf) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar9 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 0x10) = cVar2;
+              *(char *)(lVar8 + 0x11) = cVar2;
+              *(char *)(lVar8 + 0x12) = cVar2;
+              *(undefined1 *)(lVar8 + 0x13) = 0;
+              pcVar7 = (char *)(lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14);
+              *pcVar7 = cVar2;
+              pcVar7[1] = cVar2;
+              pcVar7[2] = cVar2;
+              pcVar7[3] = '\0';
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 4) = cVar2;
+              *(char *)(lVar8 + 5) = cVar2;
+              *(char *)(lVar8 + 6) = cVar2;
+              *(undefined1 *)(lVar8 + 7) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 8) = cVar2;
+              *(char *)(lVar8 + 9) = cVar2;
+              *(char *)(lVar8 + 10) = cVar2;
+              *(undefined1 *)(lVar8 + 0xb) = 0;
+              lVar8 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar8 + 0xc) = cVar2;
+              *(char *)(lVar8 + 0xd) = cVar2;
+              *(char *)(lVar8 + 0xe) = cVar2;
+              *(undefined1 *)(lVar8 + 0xf) = 0;
+              lVar6 = lVar3 + (uVar11 + lVar6 * (ulonglong)*pbVar12) * 0x14;
+              *(char *)(lVar6 + 0x10) = cVar2;
+              *(char *)(lVar6 + 0x11) = cVar2;
+              *(char *)(lVar6 + 0x12) = cVar2;
+              *(undefined1 *)(lVar6 + 0x13) = 0;
+            }
+            uVar4 = (ulonglong)*pbVar12;
+            uVar11 = uVar11 + 1;
+            auVar14 = extraout_q0_00;
+          } while (uVar11 < uVar4);
+        }
+        uVar10 = uVar10 + 1;
+        lVar13 = lVar13 + 5;
+      } while (uVar10 < uVar4);
+    }
+    FUN_00061a50(auVar14,param_2,param_3,param_4,param_5,param_6,param_7,param_8,lVar3,
+                 (longlong)param_10,(longlong)param_11,(undefined8 *)(uVar4 * 5),
+                 (undefined8 *)(uVar4 * 5),param_14,param_15,param_16);
+    if (DAT_00143008 == lVar1) {
+      FUN_0000719c();
+      return;
+    }
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_00001488();
+}
+
+ (GhidraScript)  
+INFO  DumpTargets.java>   CALLER 000d6c98 function=FUN_000d68b0@000d68b0 (GhidraScript)  
+INFO  DumpTargets.java>   CALLER 000d6e18 function=FUN_000d68b0@000d68b0 (GhidraScript)  
+INFO  DumpTargets.java> TARGET d62f0 address=000d62f0 (GhidraScript)  

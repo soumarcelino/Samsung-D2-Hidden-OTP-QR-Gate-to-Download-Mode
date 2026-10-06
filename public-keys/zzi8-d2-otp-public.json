@@ -1,0 +1,31 @@
+{
+  "name": "Samsung D2 OTP ZZI8 public key",
+  "purpose": "RSA OAEP encryption of the private QR body",
+  "type": "RSA",
+  "bits": 4096,
+  "public_exponent": 65537,
+  "encoding": {
+    "der": {
+      "file": "zzi8-d2-otp-public.der",
+      "format": "SubjectPublicKeyInfo",
+      "bytes": 550,
+      "sha256": "d66e3eda6f1b6e15172cc4e55958e710aa7708d75b66ba1e75ef293fae51f640"
+    },
+    "pem": {
+      "file": "zzi8-d2-otp-public.pem",
+      "format": "SubjectPublicKeyInfo",
+      "bytes": 800,
+      "sha256": "0f0680923bcfb01a9599c654892c386ad3679437b1407f72a1fcff5d57a4ef11"
+    }
+  },
+  "source": {
+    "model": "SM-S918B",
+    "build": "S918BXXUAZZI8",
+    "artifact": "LinuxLoader.efi",
+    "artifact_sha256": "993016ab7a70454950b55c9030db67828ca53ce99af1462e8262deebed4d5757",
+    "file_offset": "0x1ad48c",
+    "length": "0x226",
+    "research_revision": "b8131475fd75f8f5f54b3485c611a00774068620"
+  },
+  "limits": "This public key encrypts compatible bodies. It cannot decrypt a device challenge or derive the matching private key."
+}

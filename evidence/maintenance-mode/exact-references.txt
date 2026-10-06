@@ -1,0 +1,5 @@
+/home/matias/Projects-D2-APK/apktool/AndroidManifest.xml:1435:        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/maintenance_mode" android:name="com.android.settings.Settings$MaintenanceModeIntroActivity" android:permission="com.samsung.android.permission.ACCESS_MAINTENANCE_MODE">
+/home/matias/Projects-D2-APK/apktool/smali_classes3/com/samsung/android/settings/maintenancemode/MaintenanceModeProxyActivity.smali:219:    const-class p1, Lcom/android/settings/Settings$MaintenanceModeIntroActivity;
+/home/matias/Projects-D2-APK/apktool/smali/com/android/settings/Settings$MaintenanceModeIntroActivity.smali:1:.class public Lcom/android/settings/Settings$MaintenanceModeIntroActivity;
+/home/matias/Projects-D2-APK/jadx/sources/com/samsung/android/settings/maintenancemode/MaintenanceModeProxyActivity.java:58:        Class cls = ActivityManager.getCurrentUser() == 77 ? Settings.MaintenanceModeOutroActivity.class : Settings.MaintenanceModeIntroActivity.class;
+/home/matias/Projects-D2-APK/jadx/sources/com/android/settings/Settings.java:1125:    public class MaintenanceModeIntroActivity extends SettingsActivity {

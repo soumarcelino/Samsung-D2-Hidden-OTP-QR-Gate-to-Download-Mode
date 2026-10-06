@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/maintenance_mode" android:key="intro_screen" settings:controller="com.android.settings.core.BasePreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/fragment_intro" android:selectable="false" android:key="fragment_intro" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="0.0dp" />
+    <SecPreferenceScreen android:title="@string/backup_menu_cloud_title" android:key="backup_menu_cloud" settings:controller="com.android.settings.core.BasePreferenceController" />
+    <SecPreferenceScreen android:title="@string/backup_menu_smart_switch_title" android:key="backup_menu_smart_switch" settings:controller="com.android.settings.core.BasePreferenceController" />
+</PreferenceScreen>

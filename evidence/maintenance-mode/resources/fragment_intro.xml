@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_common" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/summary_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/body_first_text_margin_top" android:layout_marginStart="@dimen/body_main_text_margin_start" android:layout_marginEnd="@dimen/body_main_text_margin_end">
+        <TextView android:id="@id/summary_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_summary_phone" style="@style/TextAppearance.Main" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/subheading_how_to_keep_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/body_main_text_margin_top" android:layout_marginStart="@dimen/body_main_text_margin_start" android:layout_marginEnd="@dimen/body_main_text_margin_end">
+        <TextView android:id="@id/subheading_how_to_keep_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_subheading_how_to_keep" style="@style/TextAppearance.Subheading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_data_access_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/body_sub_text_margin_top" android:layout_marginStart="@dimen/body_sub_text_margin_start" android:layout_marginEnd="@dimen/body_sub_text_margin_end">
+        <TextView style="@style/TextAppearance.Bullet" />
+        <TextView android:id="@id/detail_data_access_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_detail_data_access" style="@style/TextAppearance.Sub" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_need_to_unlock_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/common_line_spacing_extra" android:layout_marginStart="@dimen/body_sub_text_margin_start" android:layout_marginEnd="@dimen/body_sub_text_margin_end">
+        <TextView style="@style/TextAppearance.Bullet" />
+        <TextView android:id="@id/detail_need_to_unlock_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_detail_need_to_unlock_phone" style="@style/TextAppearance.Sub" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/subheading_when_turn_off_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/body_main_text_margin_top" android:layout_marginStart="@dimen/body_main_text_margin_start" android:layout_marginEnd="@dimen/body_main_text_margin_end">
+        <TextView android:id="@id/subheading_when_turn_off_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_subheading_when_turn_off" style="@style/TextAppearance.Subheading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_everything_will_go_back_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/body_sub_text_margin_top" android:layout_marginStart="@dimen/body_sub_text_margin_start" android:layout_marginEnd="@dimen/body_sub_text_margin_end">
+        <TextView style="@style/TextAppearance.Bullet" />
+        <TextView android:id="@id/detail_everything_will_go_back_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_detail_everything_will_go_back" style="@style/TextAppearance.Sub" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_nothing_will_be_saved_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/common_line_spacing_extra" android:layout_marginStart="@dimen/body_sub_text_margin_start" android:layout_marginEnd="@dimen/body_sub_text_margin_end">
+        <TextView style="@style/TextAppearance.Bullet" />
+        <TextView android:id="@id/detail_nothing_will_be_saved_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_detail_nothing_will_be_saved" style="@style/TextAppearance.Sub" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/recommend_backup_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/body_main_text_margin_top" android:layout_marginBottom="@dimen/body_last_text_margin_bottom" android:layout_marginStart="@dimen/body_main_text_margin_start" android:layout_marginEnd="@dimen/body_main_text_margin_end">
+        <TextView android:id="@id/recommend_backup_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro_recommend_backup_phone" style="@style/TextAppearance.Main" />
+    </LinearLayout>
+</LinearLayout>

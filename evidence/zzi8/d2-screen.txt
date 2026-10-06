@@ -1,0 +1,129 @@
+===== CALLER_OF:d68b0 :: FUN_000d70a0 @ 000d70a0 ===== (GhidraScript)  
+INFO  DumpTargets.java> 
+void FUN_000d70a0(undefined1 param_1 [16],undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                 undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+                 undefined8 param_9,undefined8 param_10,ulonglong param_11,ulonglong param_12,
+                 longlong param_13,undefined8 param_14,undefined8 param_15,undefined8 param_16)
+
+{
+  bool bVar1;
+  bool bVar2;
+  char cVar3;
+  uint uVar4;
+  int iVar5;
+  longlong lVar6;
+  undefined4 *puVar7;
+  undefined8 extraout_x1;
+  longlong lVar8;
+  undefined *puVar9;
+  undefined8 uVar10;
+  undefined1 extraout_q0 [16];
+  undefined1 auVar11 [16];
+  undefined1 extraout_q0_00 [16];
+  uint local_4c;
+  longlong local_48;
+  
+  local_48 = DAT_00143008;
+  uVar4 = FUN_000d43d0();
+  if ((((uVar4 & 0xff) == 0) ||
+      (cVar3 = FUN_000d8e20(extraout_q0,param_2,param_3,param_4,param_5,param_6,param_7,param_8,
+                            (ulonglong)uVar4,extraout_x1,param_11,param_12,param_13,param_14,
+                            param_15,param_16), cVar3 != '\0')) ||
+     (uVar4 = FUN_000d9100(0x16), (uVar4 & 0xff) != 0)) {
+LAB_000d70e4:
+    DAT_001ad488 = 0;
+  }
+  else {
+    lVar8 = 0;
+    uVar10 = 0;
+    lVar6 = (**(code **)(DAT_001ae7a8 + 0x100))(0,0x10000);
+    if (((lVar6 < 0) && (cVar3 = FUN_00001c20(), cVar3 != '\0')) &&
+       (cVar3 = FUN_00001c48(-0x80000000), cVar3 != '\0')) {
+      FUN_0000162c(0x80000000,(byte *)"[DMC] Couldn\'t disable watchdog timer: %r\n");
+      lVar8 = lVar6;
+    }
+    puVar7 = FUN_000c2f00();
+    if (puVar7 == (undefined4 *)0x0) {
+      cVar3 = FUN_00001c20();
+      if ((cVar3 != '\0') && (cVar3 = FUN_00001c48(-0x80000000), cVar3 != '\0')) {
+        if (DAT_00143008 == local_48) {
+          FUN_0000162c(0x80000000,(byte *)"[DMC] FATAL! Cannot get DevAuthInfo\n");
+          return;
+        }
+        goto LAB_000d7368;
+      }
+    }
+    else if (puVar7[0x5a] != 0) {
+      FUN_0005f5d0(0x21c7c5);
+      FUN_0005fdb0();
+      auVar11 = FUN_0005f680(0xffffff,0x21c7c5);
+      auVar11 = FUN_0005f700(auVar11,param_2,param_3,param_4,param_5,param_6,param_7,param_8,
+                             0xffffff," ",lVar8,uVar10,param_13,param_14,param_15,param_16);
+      auVar11 = FUN_0005f700(auVar11,param_2,param_3,param_4,param_5,param_6,param_7,param_8,
+                             0xffffff," ",lVar8,uVar10,param_13,param_14,param_15,param_16);
+      auVar11 = FUN_0005f700(auVar11,param_2,param_3,param_4,param_5,param_6,param_7,param_8,
+                             0xffffff," ",lVar8,uVar10,param_13,param_14,param_15,param_16);
+      puVar9 = &DAT_00119ab1;
+      auVar11 = FUN_0005f700(auVar11,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xff,
+                             "[Reboot Device - %a]",&DAT_00119ab1,uVar10,param_13,param_14,param_15,
+                             param_16);
+      auVar11 = FUN_0005f700(auVar11,param_2,param_3,param_4,param_5,param_6,param_7,param_8,
+                             0xffffff," ",puVar9,uVar10,param_13,param_14,param_15,param_16);
+      FUN_0005f700(auVar11,param_2,param_3,param_4,param_5,param_6,param_7,param_8,0xff,
+                   "Volume Down + Power key for 7 seconds",puVar9,uVar10,param_13,param_14,param_15,
+                   param_16);
+      do {
+        local_4c = 0;
+        FUN_00032060(&local_4c);
+        if ((char)local_4c < '\0') {
+          bVar1 = false;
+          uVar4 = 0;
+          bVar2 = true;
+          do {
+            lVar8 = FUN_00032060(&local_4c);
+            if (lVar8 == -0x7ffffffffffffffa) {
+              local_4c = 0;
+              if (bVar2) goto LAB_000d725c;
+LAB_000d7240:
+              bVar2 = false;
+              if (bVar1) goto LAB_000d7274;
+LAB_000d7290:
+              if ((bVar2) && (local_4c != 0x80)) {
+                if (local_4c == (&DAT_001ad720)[(int)uVar4]) goto LAB_000d7218;
+                break;
+              }
+            }
+            else {
+              if (!bVar2) goto LAB_000d7240;
+LAB_000d725c:
+              bVar2 = local_4c != (&DAT_001ad720)[(int)uVar4];
+              if (!bVar2) {
+                bVar1 = true;
+              }
+              if (!bVar1) goto LAB_000d7290;
+LAB_000d7274:
+              if (local_4c != 0x80) goto LAB_000d7290;
+              uVar4 = uVar4 + 1;
+              if (0x15 < uVar4) {
+                iVar5 = FUN_000d68b0(extraout_q0_00,param_2,param_3,param_4,param_5,param_6,param_7,
+                                     param_8);
+                if (iVar5 != 0) {
+                  (**(code **)(DAT_001ae7b8 + 0x68))(1,0,0,0);
+                  FUN_00007324();
+                }
+                goto LAB_000d70e4;
+              }
+              bVar1 = false;
+LAB_000d7218:
+              bVar2 = true;
+            }
+          } while ((local_4c >> 7 & 1) != 0);
+        }
+        (**(code **)(DAT_001ae7a8 + 0xf8))(10000);
+      } while( true );
+    }
+  }
+  if (DAT_00143008 == local_48) {
+    return;
+  }
+LAB_000d7368:
